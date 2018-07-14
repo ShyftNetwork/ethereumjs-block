@@ -10,7 +10,7 @@
 Implements schema and functions related to Ethereum's block. 
 
 # INSTALL
-`npm install ethereumjs-block`
+`npm install @shyftnetwork/shyft_ethereumjs-block`
 
 # BROWSER  
 This module work with `browserify`.

@@ -1,6 +1,6 @@
 'use strict'
 const BlockHeader = require('./header')
-const ethUtil = require('ethereumjs-util')
+const ethUtil = require('@shyftnetwork/shyft_ethereumjs-util')
 
 module.exports = blockHeaderFromRpc
 

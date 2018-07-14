@@ -1,6 +1,6 @@
 'use strict'
-const Transaction = require('ethereumjs-tx')
-const ethUtil = require('ethereumjs-util')
+const Transaction = require('@shyftnetwork/shyft_ethereumjs-tx')
+const ethUtil = require('@shyftnetwork/shyft_ethereumjs-util')
 const Block = require('./')
 const blockHeaderFromRpc = require('./header-from-rpc')
 

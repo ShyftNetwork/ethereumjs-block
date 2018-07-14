@@ -1,8 +1,8 @@
 const tape = require('tape')
 const params = require('ethereum-common')
-const utils = require('ethereumjs-util')
+const utils = require('@shyftnetwork/shyft_ethereumjs-util')
 const rlp = utils.rlp
-const testing = require('ethereumjs-testing')
+const testing = require('@shyftnetwork/shyft_ethereumjs-testing')
 const Header = require('../header.js')
 const Block = require('../index.js')
 

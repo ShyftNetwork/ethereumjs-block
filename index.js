@@ -1,5 +1,5 @@
-const ethUtil = require('ethereumjs-util')
-const Tx = require('ethereumjs-tx')
+const ethUtil = require('@shyftnetwork/shyft_ethereumjs-util')
+const Tx = require('@shyftnetwork/shyft_ethereumjs-tx')
 const Trie = require('merkle-patricia-tree')
 const BN = ethUtil.BN
 const rlp = ethUtil.rlp

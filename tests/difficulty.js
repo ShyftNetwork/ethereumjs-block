@@ -1,5 +1,5 @@
-// const testing = require('ethereumjs-testing')
-const utils = require('ethereumjs-util')
+// const testing = require('@shyftnetwork/shyft_ethereumjs-testing')
+const utils = require('@shyftnetwork/shyft_ethereumjs-util')
 const tape = require('tape')
 const Block = require('../')
 const BN = utils.BN

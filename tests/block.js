@@ -1,6 +1,6 @@
 const tape = require('tape')
-const testing = require('ethereumjs-testing')
-const rlp = require('ethereumjs-util').rlp
+const testing = require('@shyftnetwork/shyft_ethereumjs-testing')
+const rlp = require('@shyftnetwork/shyft_ethereumjs-util').rlp
 const Block = require('../index.js')
 
 tape('[Block]: block functions', function (t) {

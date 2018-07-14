@@ -1,4 +1,4 @@
-const utils = require('ethereumjs-util')
+const utils = require('@shyftnetwork/shyft_ethereumjs-util')
 const params = require('ethereum-common/params.json')
 const BN = utils.BN
   /**
